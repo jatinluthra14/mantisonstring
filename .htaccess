@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule ^subfolder\.html$ subfolder/index.php [L,NC]
+
+RewriteRule ^subfolder(.+) subfolder/$1 [L,NC]
